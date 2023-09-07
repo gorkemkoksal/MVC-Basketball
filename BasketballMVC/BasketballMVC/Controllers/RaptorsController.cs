@@ -20,11 +20,20 @@ namespace BasketballMVC.Controllers
         }
 
         // GET: Raptors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-              return _context.Raptors != null ? 
-                          View(await _context.Raptors.ToListAsync()) :
-                          Problem("Entity set 'BasketballMVCContext.Raptors'  is null.");
+            //return _context.Raptors != null ?
+            //            View(await _context.Raptors.ToListAsync()) :
+            //            Problem("Entity set 'BasketballMVCContext.Raptors'  is null.");
+
+            var raptor = from m in _context.Raptors select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                raptor = raptor.Where(s => s.PlayerNum == int.Parse(searchString));
+            }
+
+            return View(await raptor.ToListAsync());
         }
 
         // GET: Raptors/Details/5
