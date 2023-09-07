@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gorkem\\source\\repos\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj": {}
+    "C:\\Users\\Gorkem\\Desktop\\MVCBasketball\\MVC-Basketball\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gorkem\\source\\repos\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj": {
+    "C:\\Users\\Gorkem\\Desktop\\MVCBasketball\\MVC-Basketball\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gorkem\\source\\repos\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Gorkem\\Desktop\\MVCBasketball\\MVC-Basketball\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj",
         "projectName": "BasketballMVC",
-        "projectPath": "C:\\Users\\Gorkem\\source\\repos\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj",
+        "projectPath": "C:\\Users\\Gorkem\\Desktop\\MVCBasketball\\MVC-Basketball\\BasketballMVC\\BasketballMVC\\BasketballMVC.csproj",
         "packagesPath": "C:\\Users\\Gorkem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gorkem\\source\\repos\\BasketballMVC\\BasketballMVC\\obj\\",
+        "outputPath": "C:\\Users\\Gorkem\\Desktop\\MVCBasketball\\MVC-Basketball\\BasketballMVC\\BasketballMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
