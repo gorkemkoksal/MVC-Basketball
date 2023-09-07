@@ -19,5 +19,7 @@ namespace BasketballMVC.Models
 		[Display(Name = "Salary")]
 		//[Column(TypeName ="double(18,2)")]
 		public double PlayerSalary {  get; set; }
+		[Display(Name = "College")]
+		public string PlayerCollege { get; set; }
 	}
 }

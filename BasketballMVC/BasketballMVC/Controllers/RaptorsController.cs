@@ -65,7 +65,7 @@ namespace BasketballMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,PlayerNum,PlayerName,PlayerPosition,PlayerSalary")] Raptors raptors)
+        public async Task<IActionResult> Create([Bind("Id,PlayerNum,PlayerName,PlayerPosition,PlayerSalary,PlayerCollege")] Raptors raptors)
         {
             if (ModelState.IsValid)
             {
@@ -97,7 +97,7 @@ namespace BasketballMVC.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,PlayerNum,PlayerName,PlayerPosition,PlayerSalary")] Raptors raptors)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,PlayerNum,PlayerName,PlayerPosition,PlayerSalary,PlayerCollege")] Raptors raptors)
         {
             if (id != raptors.Id)
             {
